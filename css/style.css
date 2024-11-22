@@ -649,8 +649,11 @@ header a {
   /* .wrapper {
     height: 90vh;
   } */
+   .wrapper {
+      height: 95vh;
+   }
   .carousel {
-    height: 78vh; /* Высота 100% от видимой области экрана */
+    height:90vh; /* Высота 100% от видимой области экрана */
     overflow: hidden;
     /* margin-top: -50px; */
     /* width: 100vw; */
