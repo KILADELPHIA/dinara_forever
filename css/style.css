@@ -94,6 +94,10 @@ input[type="submit"] {
 .wrapper {
   height: 100vh;
   display: flex;
+  /* background-image: url(../image/grunge-border-texture-background-abstract-frame-overlay-graphic-illustration-with-transparent-background-png.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   align-items: center;
   justify-content: center;
 }
@@ -121,7 +125,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   margin: 0;
-  background-color: #000;
+  background-color: #fcd5ce;
   color: #eee;
   font-family: Poppins;
   font-size: 12px;
@@ -147,8 +151,9 @@ header a {
 .carousel {
   height: 90vh; /* Высота 100% от видимой области экрана */
   overflow: hidden;
+  border-radius: 2em;
   /* margin-top: -50px; */
-  width: 100vw;
+  width: 90vw;
   overflow: hidden;
   position: relative;
 }
@@ -437,7 +442,7 @@ header a {
 
 /* Основной плеер */
 .player {
-  position: fixed;
+  position: relative;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -70%);
@@ -641,15 +646,15 @@ header a {
 
 /* Для экранов шириной меньше 768px (мобильные устройства) */
 @media (max-width: 768px) {
-  .wrapper {
+  /* .wrapper {
     height: 90vh;
-  }
+  } */
   .carousel {
-    height: 80vh; /* Высота 100% от видимой области экрана */
+    height: 78vh; /* Высота 100% от видимой области экрана */
     overflow: hidden;
     /* margin-top: -50px; */
-    width: 100vw;
-    overflow: hidden;
+    /* width: 100vw; */
+    /* overflow: hidden; */
     position: relative;
   }
   .player {
