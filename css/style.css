@@ -92,7 +92,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 .wrapper {
-  height: 100vh;
+  height: 100%;
   display: flex;
   /* background-image: url(../image/grunge-border-texture-background-abstract-frame-overlay-graphic-illustration-with-transparent-background-png.webp);
   background-position: center center;
@@ -129,6 +129,7 @@ body {
   color: #eee;
   font-family: Poppins;
   font-size: 12px;
+  height: 100vh;
 }
 a {
   text-decoration: none;
