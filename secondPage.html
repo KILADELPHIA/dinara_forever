@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contacts</a>
+            <a href="">Info</a>
+        </nav>
+    </header> -->
+
+    <!-- carousel -->
+    <div class="carousel">
+      <!-- list item -->
+      <div class="list">
+        <div class="item">
+          <img src="image/img1.jpg" />
+          <div class="content">
+            <div class="author">LUNDEV</div>
+            <div class="title">DESIGN SLIDER</div>
+            <div class="topic">ANIMAL</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              sequi, rem magnam nesciunt minima placeat, itaque eum neque
+              officiis unde, eaque optio ratione aliquid assumenda facere ab et
+              quasi ducimus aut doloribus non numquam. Explicabo, laboriosam
+              nisi reprehenderit tempora at laborum natus unde. Ut,
+              exercitationem eum aperiam illo illum laudantium?
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img2.jpg" />
+          <div class="content">
+            <div class="author">LUNDEV</div>
+            <div class="title">DESIGN SLIDER</div>
+            <div class="topic">ANIMAL</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              sequi, rem magnam nesciunt minima placeat, itaque eum neque
+              officiis unde, eaque optio ratione aliquid assumenda facere ab et
+              quasi ducimus aut doloribus non numquam. Explicabo, laboriosam
+              nisi reprehenderit tempora at laborum natus unde. Ut,
+              exercitationem eum aperiam illo illum laudantium?
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img3.jpg" />
+          <div class="content">
+            <div class="author">LUNDEV</div>
+            <div class="title">DESIGN SLIDER</div>
+            <div class="topic">ANIMAL</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              sequi, rem magnam nesciunt minima placeat, itaque eum neque
+              officiis unde, eaque optio ratione aliquid assumenda facere ab et
+              quasi ducimus aut doloribus non numquam. Explicabo, laboriosam
+              nisi reprehenderit tempora at laborum natus unde. Ut,
+              exercitationem eum aperiam illo illum laudantium?
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img4.jpg" />
+          <div class="content">
+            <div class="author">LUNDEV</div>
+            <div class="title">DESIGN SLIDER</div>
+            <div class="topic">ANIMAL</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
+              sequi, rem magnam nesciunt minima placeat, itaque eum neque
+              officiis unde, eaque optio ratione aliquid assumenda facere ab et
+              quasi ducimus aut doloribus non numquam. Explicabo, laboriosam
+              nisi reprehenderit tempora at laborum natus unde. Ut,
+              exercitationem eum aperiam illo illum laudantium?
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- list thumnail -->
+      <div class="thumbnail">
+        <div class="item">
+          <img src="image/img1.jpg" />
+          <div class="content">
+            <div class="title">Name Slider</div>
+            <div class="description">Description</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img2.jpg" />
+          <div class="content">
+            <div class="title">Name Slider</div>
+            <div class="description">Description</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img3.jpg" />
+          <div class="content">
+            <div class="title">Name Slider</div>
+            <div class="description">Description</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/img4.jpg" />
+          <div class="content">
+            <div class="title">Name Slider</div>
+            <div class="description">Description</div>
+          </div>
+        </div>
+      </div>
+      <!-- next prev -->
+
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <!-- time running -->
+      <div class="time"></div>
+    </div>
+
+    <div class="player">
+      <div class="player-track-meta">
+        <p>26.11.2024</p>
+        <p><span>KILADELPHIA</span></p>
+      </div>
+      <div class="player-controls">
+        <button
+          class="player-play-btn"
+          role="button"
+          aria-label="Play"
+          data-playing="false"
+        >
+          <div class="player-icon-play">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>play</title>
+              <polygon
+                class="icon-play"
+                points="19.05 12 6 3.36 6 20.64 19.05 12"
+              />
+              <rect class="icon-container" width="24" height="24" />
+            </svg>
+          </div>
+
+          <!-- <div class="player-icon-pause hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>pause</title><g><rect  class="icon-pause" x="6" y="3.26" width="4" height="17.48"/><rect class="icon-pause" x="14" y="3.26" width="4" height="17.48"/></g><rect class="icon-container" width="24" height="24"/></svg>
+            </div> -->
+        </button>
+        <div class="player-timeline">
+          <span class="player-time player-time-current">00:00</span>
+          <div class="player-progress">
+            <div class="player-progress-filled"></div>
+          </div>
+          <span class="player-time player-time-duration">00:00</span>
+        </div>
+        <div class="player-volume-container">
+          <input
+            type="range"
+            id="volume"
+            min="0"
+            max="1"
+            value="1"
+            step="0.01"
+            class="player-volume"
+          />
+        </div>
+      </div>
+
+      <audio src="./music/26.11.24 dinara.mp3" crossorigin="anonymous"></audio>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

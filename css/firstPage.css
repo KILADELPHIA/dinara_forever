@@ -1,0 +1,77 @@
+/* Общие стили для страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcad4; /* Легкий розовый фон */
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Стили для приветственного окна */
+.welcome-container {
+    background-color: #e5989b;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h1 {
+    color: #ffcad4; /* Розовый цвет для заголовка */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+/* Стили для кнопок */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.btn {
+    padding: 1em 2em;
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.agree {
+    background-color: #ff0055; /* Розовый для согласия */
+    color: white;
+}
+
+.decline {
+    background-color: #d86e91; /* Более светлый розовый для отказа */
+    color: white;
+}
+
+.agree:hover {
+    background-color: #f50057;
+    transform: scale(1.05);
+}
+
+.decline:hover {
+    background-color: #ff4081;
+    transform: scale(1.05);
+}
