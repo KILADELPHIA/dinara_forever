@@ -72,7 +72,12 @@ button, input[type="submit"] {
     background: none;
     cursor: pointer;
 }
-
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 input:focus, input:active,
 button:focus, button:active {
     outline: none;
@@ -103,9 +108,6 @@ body {
 a {
   text-decoration: none;
 }
-.wrapper {
-  height: 100vh;
-}
 header {
   width: 1140px;
   max-width: 80%;
@@ -122,9 +124,8 @@ header a {
 }
 /* carousel */
 .carousel {
-  height: 100vh;  /* Высота 100% от видимой области экрана */
+  height: 90vh;  /* Высота 100% от видимой области экрана */
   overflow: hidden;
-  height: 100vh;
   /* margin-top: -50px; */
   width: 100vw;
   overflow: hidden;
