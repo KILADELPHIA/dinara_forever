@@ -91,16 +91,6 @@ input[type="submit"] {
   background: none;
   cursor: pointer;
 }
-.wrapper {
-  height: 100%;
-  display: flex;
-  /* background-image: url(../image/grunge-border-texture-background-abstract-frame-overlay-graphic-illustration-with-transparent-background-png.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  align-items: center;
-  justify-content: center;
-}
 input:focus,
 input:active,
 button:focus,
@@ -150,11 +140,11 @@ header a {
 }
 /* carousel */
 .carousel {
-  height: 90%; /* Высота 100% от видимой области экрана */
+  height: 100vh; /* Высота 100% от видимой области экрана */
   overflow: hidden;
   border-radius: 2em;
   /* margin-top: -50px; */
-  width: 90vw;
+  width: 100vw;
   overflow: hidden;
   position: relative;
 }
