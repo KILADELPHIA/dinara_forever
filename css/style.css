@@ -122,6 +122,8 @@ header a {
 }
 /* carousel */
 .carousel {
+  height: 100vh;  /* Высота 100% от видимой области экрана */
+  overflow: hidden;
   height: 100vh;
   /* margin-top: -50px; */
   width: 100vw;
